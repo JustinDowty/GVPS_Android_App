@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "736915996658",
+    "firebase_url": "https://gvps-6a772.firebaseio.com",
+    "project_id": "gvps-6a772",
+    "storage_bucket": "gvps-6a772.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:736915996658:android:e4067dc8759d31ee",
+        "android_client_info": {
+          "package_name": "com.example.justindowty.gpsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "736915996658-5hvho5qh4r1nog9ea9v4lksv44pbjr8u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtfpO9UAmks3ooXW3RFaSwYCRkc_Wil8s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:736915996658:android:148c2e65c091690e",
+        "android_client_info": {
+          "package_name": "com.example.justindowty.gvps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "736915996658-5hvho5qh4r1nog9ea9v4lksv44pbjr8u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtfpO9UAmks3ooXW3RFaSwYCRkc_Wil8s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

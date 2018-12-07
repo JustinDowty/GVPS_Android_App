@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="purple">#b01dab</color>
+    <color name="lightBlue">#52b7bd</color>
+    <color name="headerGray">#555555</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="focusPurple">#5f385d</color>
+    <color name="firebaseBack">#777777</color>
+</resources>

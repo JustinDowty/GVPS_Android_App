@@ -1,0 +1,18 @@
+{
+  "rules": {
+    "MEET_UPS": {
+      ".read": true,
+      ".write": true
+    },
+    "STATS": {
+      ".read": true,
+      ".write": true
+    },
+    "users": {
+      "$uid": {
+        ".read": "$uid === auth.uid",
+        ".write": "$uid === auth.uid"
+      }
+    }
+  }
+}

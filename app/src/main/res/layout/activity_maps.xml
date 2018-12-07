@@ -19,7 +19,7 @@
 
     <Button
         android:id="@+id/chooseLocationButton"
-        style="@style/SlimButtonStyle"
+        style="@style/ButtonStyle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
@@ -45,7 +45,7 @@
 
     <Button
         android:id="@+id/clearMarkersButton"
-        style="@style/SlimButtonStyle"
+        style="@style/ButtonStyle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -58,7 +58,7 @@
 
     <Button
         android:id="@+id/menuButton"
-        style="@style/SlimButtonStyle"
+        style="@style/ButtonStyle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -93,7 +93,7 @@
 
     <Button
         android:id="@+id/removeLocationButton"
-        style="@style/SlimButtonStyle"
+        style="@style/ButtonStyle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"

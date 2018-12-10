@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.justindowty.gpsapp">
+    package="com.jd.justindowty.gpsapp">
 
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
@@ -34,25 +34,25 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".MapsActivity"
+            android:name="com.jd.justindowty.gpsapp.MapsActivity"
             android:label="@string/title_activity_maps" />
-        <activity android:name=".LogInActivity">
+        <activity android:name="com.jd.justindowty.gpsapp.LogInActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainMenuActivity" />
+        <activity android:name="com.jd.justindowty.gpsapp.MainMenuActivity" />
         <activity
-            android:name=".AddMeetUpActivity"
+            android:name="com.jd.justindowty.gpsapp.AddMeetUpActivity"
             android:label="@string/title_activity_add_meet_up" />
         <activity
-            android:name=".MeetUpsActivity"
+            android:name="com.jd.justindowty.gpsapp.MeetUpsActivity"
             android:label="@string/title_activity_meet_ups" />
-        <activity android:name=".AddScheduleActivity" />
-        <activity android:name=".ScheduleActivity" />
-        <activity android:name=".ProfileActivity"></activity>
+        <activity android:name="com.jd.justindowty.gpsapp.AddScheduleActivity" />
+        <activity android:name="com.jd.justindowty.gpsapp.ScheduleActivity" />
+        <activity android:name="com.jd.justindowty.gpsapp.ProfileActivity"></activity>
 
 
 

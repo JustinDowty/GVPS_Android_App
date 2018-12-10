@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "736915996658-fhngo1pch0ongkbbdgbbl4a6qcjpr29r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.justindowty.gpsapp",
+            "certificate_hash": "04322a5be4f0fcd5fd1bbb6d61708113add61bb5"
+          }
+        },
+        {
           "client_id": "736915996658-5hvho5qh4r1nog9ea9v4lksv44pbjr8u.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,8 +37,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "736915996658-5hvho5qh4r1nog9ea9v4lksv44pbjr8u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2
@@ -39,9 +52,9 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:736915996658:android:148c2e65c091690e",
+        "mobilesdk_app_id": "1:736915996658:android:f9df692c77710d74",
         "android_client_info": {
-          "package_name": "com.example.justindowty.gvps"
+          "package_name": "com.jd.justindowty.gpsapp"
         }
       },
       "oauth_client": [

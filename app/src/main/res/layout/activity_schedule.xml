@@ -8,7 +8,7 @@
 
     <fragment
         android:id="@+id/fragment2"
-        android:name="com.example.justindowty.gpsapp.ScheduleFragment"
+        android:name="com.jd.justindowty.gpsapp.ScheduleFragment"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginTop="8dp"

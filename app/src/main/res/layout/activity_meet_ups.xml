@@ -8,7 +8,7 @@
 
     <fragment
         android:id="@+id/fragment"
-        android:name="com.example.justindowty.gpsapp.MeetUpsFragment"
+        android:name="com.jd.justindowty.gpsapp.MeetUpsFragment"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginTop="8dp"

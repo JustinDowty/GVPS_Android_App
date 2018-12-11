@@ -144,7 +144,7 @@ public class LogInActivity extends AppCompatActivity {
                     AuthUI.getInstance()
                             .createSignInIntentBuilder()
                             .setAvailableProviders(providers)
-                            .setIsSmartLockEnabled(true)
+                            .setIsSmartLockEnabled(false)
                             .setLogo(R.drawable.gvps_logo_slim)
                             .setTheme(R.style.FirebaseTheme)
                             .build(),

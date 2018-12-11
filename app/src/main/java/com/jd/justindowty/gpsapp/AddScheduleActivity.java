@@ -108,6 +108,11 @@ public class AddScheduleActivity extends Activity {
                     Toast.LENGTH_LONG).show();
             return;
         }
+        if(locationsSpinner.getAdapter().getCount() == 0){
+            Toast.makeText(AddScheduleActivity.this, "You don't have any locations! Add locations on the map to use with your schedule item first!",
+                    Toast.LENGTH_LONG).show();
+            return;
+        }
         if(locationsSpinner.getSelectedItem().toString().equals("")){
             Toast.makeText(AddScheduleActivity.this, "Cannot Leave Location Blank!",
                     Toast.LENGTH_LONG).show();

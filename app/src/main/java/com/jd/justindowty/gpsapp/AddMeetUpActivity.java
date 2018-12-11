@@ -109,6 +109,11 @@ public class AddMeetUpActivity extends Activity {
                     Toast.LENGTH_LONG).show();
             return;
         }
+        if(locationsSpinner.getAdapter().getCount() == 0){
+            Toast.makeText(AddMeetUpActivity.this, "You don't have any locations! Add locations on the map to use with your schedule item first!",
+                    Toast.LENGTH_LONG).show();
+            return;
+        }
         if(locationsSpinner.getSelectedItem().toString().equals("")){
             Toast.makeText(AddMeetUpActivity.this, "Cannot Leave Location Blank!",
                     Toast.LENGTH_LONG).show();
